@@ -1,0 +1,33 @@
+body{
+    background-color: #6AF6EC;
+    font-family: 'Roboto';
+}
+
+.jumbotron{
+    background-color: #08E0D0;    
+}
+
+.h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn{
+    width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #08E0D0;
+}
+
+.text{
+    margin: 20px 0;
+}
+
+a{
+    color: #9B005E;
+}

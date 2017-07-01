@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src='main.js'></script>
+<title>Name generator - Pink Unicorn Studio</title>
+</head>
+<body>
+<div class="jumbotron text-center">
+    <a href='#'><img src="pus-logo.png"></a>
+    <h1>Generator imion i nazwisk</h1>
+    <p>Wygeneruj dowolną liczbę polskich imion i nazwisk</p> 
+    <medium>Powered by: </medium><medium style='color:#9B005E;'>Pink Unicorn Studio</medium>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 class='h3'>Zaznacz jedną płeć</h3>
+      <hr class="divider">
+        <form>
+            <div class="radio">
+                <label><input type="radio" name="option" id="women" checked>Kobiety</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="option" id="men">Mężczyźni</label>
+            </div>
+        </form>
+    </div>
+    <div class="col-sm-4">
+      <h3 class='h3'>Ile nazwisk potrzebujesz?</h3>
+      <form name='inputForm'>
+        <div class="form-group">
+            <hr class="divider">
+            <input class="form-control input-sm" id="input" type="text">
+        </div>
+      </form>
+      <button type="button" class="btn btn-info" onclick="main()">Generuj</button>
+    </div>
+    <div class="col-sm-4">
+      <h3 class='h3'>Wynik:</h3>
+      <hr class="divider">
+            <textarea class="form-control" rows="5" id="output"></textarea>
+        </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+    <div class="container">
+    <p class="text">Copyright © 2017 <a href="#">Pink Unicorn Studio</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
